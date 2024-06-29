@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h2>Khushi's PlayList</h2>
+            <div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="0"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="2">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="1"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="3">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="2"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="4">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="3"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="5">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="4"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="6">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="5"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img alt="7">
+                    <span class="songName"></span>
+                    <span class="songListPlay">
+                        <span class="timeStemp">
+                            <p class="time"></p>
+                            <i class="fa-regular fa-circle-play songPlay" id="6"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.webp" alt="Playing" width="42px" id="gif">
+            <span id="masterSongName">Ajab Si</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
